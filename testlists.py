@@ -22,3 +22,14 @@ print mixed_list
 print "Example 5: Lists can even contain other lists"
 list_with_lists = [3, 'colors:', ['red', 'green', 'blue'], 'your favorite?']
 print list_with_lists
+
+# Define a variable, stooges, which value is a list of the names of the Three Stooges in this order: 
+# "Moe" 
+# "Larry" 
+# "Curly"
+list_names = ['Moe', 'Larry', 'Curly']
+
+print list_names
+print list_names[0]
+print list_names[1:]
+
