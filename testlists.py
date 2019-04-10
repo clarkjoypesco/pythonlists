@@ -33,3 +33,27 @@ print list_names
 print list_names[0]
 print list_names[1:]
 
+
+# Given the variable,
+
+days_in_month = [31,28,31,30,31,30,31,31,30,31,30,31]
+
+# define a procedure, how_many_days,
+# that takes as input a number
+# representing a month, and returns
+# the number of days in that month.
+
+def how_many_days(month_number):
+    if month_number < 1 or month_number > 12:
+        return
+    return days_in_month[month_number - 1]
+
+
+print how_many_days(1)
+#>>> 31
+
+print how_many_days(13)
+#>>> 30
+
+
+
