@@ -91,4 +91,11 @@ countries = [['China','Beijing',1350],
 
 print countries[1][1]
 
+# What multiple of Romania's population is the population
+# of China? Calculate this by accessing the list and
+# dividing the population of China (1350)
+# by the population of Romania (21).
+# Please print your result.
+print countries[0][2] / countries[2][2]
+
 
